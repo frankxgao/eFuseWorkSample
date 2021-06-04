@@ -1,29 +1,63 @@
-# eFuseWorkSample
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+
+## General info 
+eFuse Test Script Sample
 Selenium WebDriver Test Script for eFuse Interview
-
-Goal: Implement automated UI webdriver tests for the following use cases:
+### Goal: Implement automated UI webdriver tests for the following use cases:
 Login
-
-Login Success
-
-Login Failure
+ - Login Success
+ - Login Failure
 
 Searching for a User
-
-Navigate to portfolio (For testing, please use user “mjb”)
-
-Navigate to user's profile
-
-Navigate to Posts
-
-Navigate to Media
+ - Navigate to portfolio (For testing, please use user “mjb”)
+ - Navigate to user's profile
+ - Navigate to Users Posts
+ - Navigate to Users Media
 
 Navigate to following
+ - Navigate to Discover Page
+   - Open an organization
+ - Navigate to Opportunities
+   - Click on opportunities
 
-Navigate to Discover Page
 
-Open an organization
+## Technologies
+Project is created with:
+* Java version: 1.8
+* Selenium Webdriver version: 3.141
+* Eclipse IDE
 
-Navigate to Opportunities
 
-Click on opportunities
+## Setup
+To install the technologies needed
+1. Download and install the Java Software Development Kit [(JDK) Here.](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Download and install the latest version of ["Eclipse IDE for Java Developers" here.](http://www.eclipse.org/downloads/)
+3. Download the [Selenium Webdriver for Java Client Driver here.](https://www.selenium.dev/downloads/)
+Find more detailed instructions on [installing Selenium webdriver here.](https://www.guru99.com/installing-selenium-webdriver.html)
+
+To run the test script
+Clone the github repository
+```
+$ git clone https://github.com/frankxgao/eFuseWorkSample.git
+```
+Launch Eclise IDE
+ - Click on Add a local project
+ - Navigate to the eFuseWorkSample folder in Project path
+ - Click Finished
+
+
+<iframe width="560" height="315"
+src="https://youtu.be/RFfqpUxmKlU" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+<iframe width="560" height="315"
+src="https://youtu.be/dWOaTaMvqtU" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
