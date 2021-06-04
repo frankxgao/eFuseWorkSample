@@ -48,7 +48,9 @@ Launch Eclipse IDE
  - Click on Add a local project
  - Navigate to the eFuseWorkSample folder in Project path
  - Click Finished
-
+ - Change `eFuseEmail` to a working eFuse login
+ - Change `eFusePassword` with the password
+ - Run the test script
 
 [![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
