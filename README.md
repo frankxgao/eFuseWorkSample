@@ -40,6 +40,7 @@ Project is created with:
 5. For more detailed instructions on installing Selenium webdriver [Click here.](https://www.guru99.com/installing-selenium-webdriver.html)
 
 ### To run the test script
+Open Git Bash, to install [Git Bash Click Here.](https://git-scm.com/downloads)
 Clone the github repository
 ```
 $ git clone https://github.com/frankxgao/eFuseWorkSample.git
