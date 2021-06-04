@@ -5,7 +5,6 @@
 
 
 ## General info 
-eFuse Test Script Sample
 Selenium WebDriver Test Script for eFuse Interview
 ### Goal: Implement automated UI webdriver tests for the following use cases:
 Login
