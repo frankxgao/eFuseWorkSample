@@ -37,27 +37,20 @@ To install the technologies needed
 1. Download and install the Java Software Development Kit [(JDK) Here.](https://www.oracle.com/java/technologies/javase-downloads.html).
 2. Download and install the latest version of ["Eclipse IDE for Java Developers" here.](http://www.eclipse.org/downloads/)
 3. Download the [Selenium Webdriver for Java Client Driver here.](https://www.selenium.dev/downloads/)
-Find more detailed instructions on [installing Selenium webdriver here.](https://www.guru99.com/installing-selenium-webdriver.html)
+4. For more detailed instructions on installing Selenium webdriver [Click here.](https://www.guru99.com/installing-selenium-webdriver.html)
 
 To run the test script
 Clone the github repository
 ```
 $ git clone https://github.com/frankxgao/eFuseWorkSample.git
 ```
-Launch Eclise IDE
+Launch Eclipse IDE
  - Click on Add a local project
  - Navigate to the eFuseWorkSample folder in Project path
  - Click Finished
 
 
-<iframe width="560" height="315"
-src="https://youtu.be/RFfqpUxmKlU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
-<iframe width="560" height="315"
-src="https://youtu.be/dWOaTaMvqtU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![Watch the video](https://i.imgur.com/HVf1I60.png)](https://youtu.be/RFfqpUxmKlU)
+
