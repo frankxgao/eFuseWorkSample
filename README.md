@@ -44,12 +44,12 @@ Clone the github repository
 $ git clone https://github.com/frankxgao/eFuseWorkSample.git
 ```
 Launch Eclipse IDE
- - Click on Add a local project
- - Navigate to the eFuseWorkSample folder in Project path
- - Click Finished
- - Change `eFuseEmail` to a working eFuse login
- - Change `eFusePassword` with the password
- - Run the test script
+ 1. Click on Add a local project
+ 2. Navigate to the eFuseWorkSample folder in Project path
+ 3. Click Finished
+ 4. Change `eFuseEmail` to a working eFuse login
+ 5. Change `eFusePassword` with the password
+ 6. Run the test script
 
 [![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
