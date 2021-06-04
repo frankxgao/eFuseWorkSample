@@ -19,8 +19,8 @@ public class UISampleTest {
 	    WebDriver driver=new ChromeDriver();
 	    WebDriverWait wait = new WebDriverWait(driver, 20);
 	    String baseUrl = "http://www.eFuse.gg/";
-	    String userEmail = "frankxgao@gmail.com";
-	    String password = "Password!1234";
+	    String userEmail = "eFuseEmail";
+	    String password = "eFusePassword";
 	    	
 		
 		// Launch eFuse website
@@ -163,7 +163,6 @@ public class UISampleTest {
 	    
 	    // Check if click was successful
 	    wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".OpportunityFullView_profileImage__LfNJl")));
-	    //String actual2ndChildUrl= "https://www.efuse.gg/o/hm-1374955";
 	    String expected2ndChildUrl= driver.getCurrentUrl();
 	    if (!actualOpportunityUrl.contentEquals(expected2ndChildUrl)){
             System.out.println("Click is Sucessful");
