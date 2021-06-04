@@ -36,7 +36,8 @@ Project is created with:
 1. Download and install the Java Software Development Kit [(JDK) Here.](https://www.oracle.com/java/technologies/javase-downloads.html).
 2. Download and install the latest version of ["Eclipse IDE for Java Developers" here.](http://www.eclipse.org/downloads/)
 3. Download the [Selenium Webdriver for Java Client Driver here.](https://www.selenium.dev/downloads/)
-4. For more detailed instructions on installing Selenium webdriver [Click here.](https://www.guru99.com/installing-selenium-webdriver.html)
+4. Download correct version of [Chromedriver here.](https://chromedriver.chromium.org/downloads)
+5. For more detailed instructions on installing Selenium webdriver [Click here.](https://www.guru99.com/installing-selenium-webdriver.html)
 
 ### To run the test script
 Clone the github repository
@@ -47,9 +48,10 @@ Launch Eclipse IDE
  1. Click on Add a local project
  2. Navigate to the eFuseWorkSample folder in Project path
  3. Click Finished
- 4. Change `eFuseEmail` to a working eFuse login
- 5. Change `eFusePassword` with the password
- 6. Run the test script
+ 4. Change the Chromedriver executable path in `System.setProperty("webdriver.chrome.driver", "C://Your Chromedriver.exe dir")`
+ 5. Change `eFuseEmail` to a working eFuse login
+ 6. Change `eFusePassword` with the password
+ 7. Run the test script
 
 [![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
