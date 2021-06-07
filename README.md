@@ -5,12 +5,11 @@
 
 
 ## General info 
-eFuse Test Script Sample
 Selenium WebDriver Test Script for eFuse Interview
 ### Goal: Implement automated UI webdriver tests for the following use cases:
 Login
- - Login Success
  - Login Failure
+ - Login Sucess
 
 Searching for a User
  - Navigate to portfolio (For testing, please use user “mjb”)
@@ -33,24 +32,29 @@ Project is created with:
 
 
 ## Setup
-To install the technologies needed
+### To install the technologies needed
 1. Download and install the Java Software Development Kit [(JDK) Here.](https://www.oracle.com/java/technologies/javase-downloads.html).
 2. Download and install the latest version of ["Eclipse IDE for Java Developers" here.](http://www.eclipse.org/downloads/)
 3. Download the [Selenium Webdriver for Java Client Driver here.](https://www.selenium.dev/downloads/)
-4. For more detailed instructions on installing Selenium webdriver [Click here.](https://www.guru99.com/installing-selenium-webdriver.html)
+4. Download correct version of [Chromedriver here.](https://chromedriver.chromium.org/downloads)
+5. For more detailed instructions on installing Selenium webdriver [Click here.](https://www.guru99.com/installing-selenium-webdriver.html)
 
-To run the test script
-Clone the github repository
+### To run the test script
+1. Open Git Bash, to install [Git Bash Click Here.](https://git-scm.com/downloads)
+2. Clone the github repository
 ```
 $ git clone https://github.com/frankxgao/eFuseWorkSample.git
 ```
 Launch Eclipse IDE
- - Click on Add a local project
- - Navigate to the eFuseWorkSample folder in Project path
- - Click Finished
-
-
+ 1. Click on Add a local project
+ 2. Navigate to the eFuseWorkSample folder in Project path
+ 3. Click Finished
+ 4. Change the Chromedriver executable path in `System.setProperty("webdriver.chrome.driver", "C://Your Chromedriver.exe dir")`
+ 5. Change `eFuseEmail` to a working eFuse login
+ 6. Change `eFusePassword` with the password
+ 7. Run the test script
+ 
+[![Watch the video](https://imgur.com/2qhHqUC.png)](https://imgur.com/2qhHqUC.png)
 [![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
-[![Watch the video](https://i.imgur.com/HVf1I60.png)](https://youtu.be/RFfqpUxmKlU)
 
