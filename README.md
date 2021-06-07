@@ -53,8 +53,8 @@ Launch Eclipse IDE
  5. Change `eFuseEmail` to a working eFuse login
  6. Change `eFusePassword` with the password
  7. Run the test script
-
+ 
+[![Watch the video](https://imgur.com/2qhHqUC.png)](https://imgur.com/2qhHqUC.png)
 [![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
-[![Watch the video](https://i.imgur.com/HVf1I60.png)](https://youtu.be/RFfqpUxmKlU)
 
