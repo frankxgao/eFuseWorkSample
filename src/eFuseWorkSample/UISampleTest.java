@@ -19,8 +19,8 @@ public class UISampleTest {
 	    WebDriver driver=new ChromeDriver();
 	    WebDriverWait wait = new WebDriverWait(driver, 20);
 	    String baseUrl = "http://www.eFuse.gg/";
-	    String userEmail = "eFuseEmail";
-	    String password = "eFusePassword";
+	    String userEmail = "Frankxgao@gmail.com";
+	    String password = "Password!1234";
 	    	
 		
 		// Launch eFuse website
@@ -29,15 +29,27 @@ public class UISampleTest {
 		driver.manage().window().maximize() ;
 	    
 	    // Login Success/Login Failure 
-	    
+	    driver.navigate().to(baseUrl);
 	    driver.findElement(By.cssSelector("span > .EFRectangleButton_rectangleButton__2QIFx > .ButtonThemes_primary__Hb-Sb > .EFRipple_ripple__1mSNN")).click();
 	    // Get the WebElement corresponding to Email Address field from the login form
 	    WebElement emailInput = driver.findElement(By.name("email"));
 	    // Get the WebElement corresponding to the Password field from the login form
 	    WebElement passwordInput = driver.findElement(By.name("password"));
 	    
-	    emailInput.sendKeys(userEmail);
+	    // Failure Test
+	    emailInput.sendKeys("wrongEmail@gmail.com");
 	    passwordInput.sendKeys(password);
+	    driver.findElement(By.cssSelector(".LoginTemplate_formButton__1FR_X")).click();
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".notification-danger-icon")));
+	    String notificationMessage = driver.findElement(By.xpath("//*[@id=\"__next\"]/div[2]/div[2]/div/div/div/div[2]/p[2]")).getText();
+	    System.out.println("Login Failure Test");
+        System.out.println("Notifcation Message:" + notificationMessage);
+	    emailInput.clear();
+	    passwordInput.clear();
+	    
+	    // Success Test
+	    emailInput.sendKeys(userEmail);
+	    //passwordInput.sendKeys(password);
 	    driver.findElement(By.cssSelector(".LoginTemplate_formButton__1FR_X")).click();
 	 
 	    // Verify if Login was successful or failed
