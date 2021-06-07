@@ -8,8 +8,8 @@
 Selenium WebDriver Test Script for eFuse Interview
 ### Goal: Implement automated UI webdriver tests for the following use cases:
 Login
- - Login Success
  - Login Failure
+ - Login Sucess
 
 Searching for a User
  - Navigate to portfolio (For testing, please use user “mjb”)
