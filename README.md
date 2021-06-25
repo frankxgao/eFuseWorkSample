@@ -54,7 +54,7 @@ Launch Eclipse IDE
  6. Change `eFusePassword` with the password
  7. Run the test script
  
-[![Watch the video](https://imgur.com/2qhHqUC.png)](https://imgur.com/2qhHqUC.png)
+[![Watch the video](https://imgur.com/Wkg3AT2.png)](https://imgur.com/Wkg3AT2.png)
 [![Watch the video](https://i.imgur.com/M54Ze7h.png)](https://youtu.be/dWOaTaMvqtU)
 
 
